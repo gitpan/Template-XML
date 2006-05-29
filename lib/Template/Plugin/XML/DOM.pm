@@ -25,7 +25,7 @@ use base 'Template::Plugin';
 use Template::Plugin::XML;
 use XML::DOM;
 
-our $VERSION = 2.56;
+our $VERSION = 2.70;
 our $DEBUG   = 0 unless defined $DEBUG;
 
 

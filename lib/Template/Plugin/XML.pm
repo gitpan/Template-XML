@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use base 'Template::Plugin';
 
-our $VERSION    = 2.15;
+our $VERSION    = 2.16;
 our $DEBUG      = 0 unless defined $DEBUG;
 our $EXCEPTION  = 'Template::Exception' unless defined $EXCEPTION;
 our $LIBXML     = eval { require XML::LibXML } unless defined $LIBXML;
