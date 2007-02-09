@@ -19,7 +19,7 @@
 package Template::Plugin::XML::XPath;
 
 use strict;
-usw warnings;
+use warnings;
 use Template::Exception;
 use base 'Template::Plugin';
 use XML::XPath;

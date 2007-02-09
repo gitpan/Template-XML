@@ -107,15 +107,6 @@ libxml is disabled
 
 
 -- test --
-[% CALL libxml_on; 
-   USE XML;
-   'libxml is '; XML.libxml ? 'enabled' : 'disabled'
--%]
--- expect --
-libxml is enabled
-
-
--- test --
 [% USE XML(libxml = 0);
    'libxml is '; XML.libxml ? 'enabled' : 'disabled'
 -%]

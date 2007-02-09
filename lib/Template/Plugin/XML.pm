@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use base 'Template::Plugin';
 
-our $VERSION    = 2.16;
+our $VERSION    = 2.17;
 our $DEBUG      = 0 unless defined $DEBUG;
 our $EXCEPTION  = 'Template::Exception' unless defined $EXCEPTION;
 our $LIBXML     = eval { require XML::LibXML } unless defined $LIBXML;
@@ -362,7 +362,7 @@ the expat library.
 
 =head1 COPYRIGHT
 
-Copyright (C) 1996-2006 Andy Wardley.  All Rights Reserved.
+Copyright (C) 1996-2007 Andy Wardley.  All Rights Reserved.
 
 This module is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
